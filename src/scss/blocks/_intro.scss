@@ -1,0 +1,13 @@
+
+
+.intro{
+    background-image: url(/img/Ellipse\ 3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+        &__info{
+            & a:hover{
+                color: white !important;
+        }
+        }
+}
+    

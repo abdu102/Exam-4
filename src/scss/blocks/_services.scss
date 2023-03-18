@@ -1,0 +1,12 @@
+.services{
+    background-image: url(/img/Ellipse\ 1949.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__cards{
+        background: rgba(14, 16, 20, 0.9);
+border: 1px solid #4E4E4E;
+backdrop-filter: blur(1px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px;
+    }}

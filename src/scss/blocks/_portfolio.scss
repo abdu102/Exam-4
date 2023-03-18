@@ -1,0 +1,23 @@
+.portfolio{
+    background-image: url(/img/lines.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__title{
+        &--category{
+            border: 1px solid #4E4E4E;
+backdrop-filter: blur(2px);
+border-radius: 90px;
+        }
+    }
+    & a:hover strong{
+        color: aliceblue !important;
+}
+&__cards{
+    &--card:hover .hover__card{
+        opacity: 1;
+        transition: all 0.3s ease;
+        background: rgba(0, 0, 0, 0.87);
+border-radius: 5px;
+    }
+}
+}

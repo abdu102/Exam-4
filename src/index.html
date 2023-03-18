@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style/style.min.css">
+</head>
+<body>
+      <header class="h-[80px]">
+        <div class="container">
+            <nav class="nav pt-3 pl-8 flex justify-between items-center">
+                <a href="#" class="burger bg-red block sm:hidden"><img src="./img/monu.svg" alt=""></a>
+                <div class="nav__logo h-[100%] font-bold text-[30px] p-1">
+                    <h2>LOGO</h2>
+                </div>
+                <ul class="nav__ul sm:flex justify-between hidden sm:w-[58%] md:w-[50%] lg:;w-[40%] items-center pt-2 font-[700] texxt-[20px]">
+                    <li class="nav__ul--list"><a href="./news.html" target="_blank" rel="noopener noreferrer">О компании</a></li>
+                    <li class="nav__ul--list"><a href="./portfolio.html" target="_blank" rel="noopener noreferrer">Портфолио</a></li>
+                    <li class="nav__ul--list"><a href="./news.html" target="_blank" rel="noopener noreferrer">Услуги</a></li>
+                    <li class="nav__ul--list"><a href="./portfolio.html" target="_blank" rel="noopener noreferrer">Контакты</a></li>
+                </ul>
+                <div class="nav__info flex justify-between items-center w-[26%] lg:w-[37%]">
+                    <div class="nav__info--theme flex justify-between  relative px-2 items-center text-[22px] bg-[hsla(0, 0%, 67%, 1)]] border border-[#AAAAAA] rounded-[40px] w-[93px] h-[40px]">
+                        <i class='bx bx-sun light sun'></i>
+                        <div class="nav__info--theme-box duration-500 h-[36px] absolute w-[36px] rounded-[40px] z-[-9] right-[3px] bg-[#5454D4]"></div>
+                        <i class='bx bx-moon dark dark'></i>
+                    </div>
+                    <div class="nav__info--phone hidden xl:block">
+                        <h3>+998 90 777-77-77</h3>
+                        <p>chotatam@gmail.com</p>
+                    </div>
+                    <button class="nav__info--btn bg-[#6911AD] hidden lg:block font-bold hover:bg-[#7331AD] w-[168px] h-[45px] rounded-[7px]">
+                        Заказать звонок
+                    </button>
+                   
+                </div>
+              
+                <div class="nav__menu hidden fixed left-0 top-0 duration-300 h-[100vh] flex items-center w-[100vw] flex-col z-[99]">
+                    <div class="nav__menu--title  px-5 flex justify-between items-center text-white w-[100%] h-[10%]">
+                    <h2 class="text-[30px] ">LOGO</h2>
+
+                        <i class='bx bx-x text-white closed text-[40px]'></i>
+                    </div>
+                    <ul class="nav__ul flex justify-between text-[32px] flex-col h-[40%] w-[100%] pl-[40px] pt-[40px] text-white font-[700] text-[20px]">
+                        <li class="nav__ul--list"><a href="./news.html" target="_blank" rel="noopener noreferrer">О компании</a></li>
+                        <li class="nav__ul--list"><a href="./portfolio.html" target="_blank" rel="noopener noreferrer">Портфолио</a></li>
+                        <li class="nav__ul--list"><a href="./news.html" target="_blank" rel="noopener noreferrer">Услуги</a></li>
+                        <li class="nav__ul--list"><a href="./portfolio.html" target="_blank" rel="noopener noreferrer">Контакты</a></li>
+                    </ul>
+                    <button class="nav__info--btn bg-[#6911AD] block text-white text-[32px] mt-[80px] font-bold hover:bg-[#6911AD] w-[299px] h-[82px] rounded-[141px]">
+                        (99) 999 9999
+                    </button>
+                </div>
+            </nav>
+        </div>
+      </header>
+      <main class="bg-[url(./img/noise.png)] ">
+        <section class="container"> 
+            <div class="intro xl:h-[550px] h-min-[600px] flex justify-around pl-7 sm:pl-0 items-center xl:flex-row flex-col-reverse xl:pt-2">
+                <div class="intro__info gap-y-[80px] xl:w-[45%] flex flex-col xl:items-start items-center justify-between py-3 w-[98%] h-[40%] xl:h-[88%]">
+                    <div class="intro__info--text w-[100%] gap-y-5 flex items-center flex-col xl:items-start pt-3">
+                        <h2 class="md:text-[48px] text-[32px] xl:w-[100%] w-[85%]  md:w-[70%] text-center xl:text-start">Biz veb-saytlar,  ilovalarni 
+                            ishlab chiqamiz</h2>
+                    <p class="md:text-[18px] text-[16px] text-start w-[70%] xl:w-[80%] font-400 leading-[22px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                    <a href="./portfolio.html" class="w-[70px] h-[70px] rounded-[141px] hover:pt-1 hover:justify-center hidden md:flex  hover:pl-0 font-semibold bg-[#6911AD] pl-8 pt-4 hover:w-[196px] duration-500 flex items-center"> <strong class="text-white text-[21px]">Пор</strong>  <strong class="text-[#6911AD] text-[21px]">тфолио</strong></a>
+                <a href="./portfolio.html" class=" h-[70px] rounded-[141px] text-[white] font-semibold bg-[#6911AD] hover:bg-[#6911AD] justify-center block md:hidden items-center w-[196px] duration-500 flex items-center">Портфолио</a>
+                </div>
+                <canvas id="cobe" style="width: 500px; height: 500px" width="750" height="920"></canvas>
+            </div>
+        </section>
+        <section class="container">
+            <div class="about h-min-[400px] px-2 md:px-6 flex justify-between flex-col items-center gap-y-[40px] xl:flex-row pt-[150px] p-4">
+                <div class="about__info w-[93%] h-[48%] xl:w-[50%] xl:h-[98%] items-center xl:items-start flex flex-col justify-between gap-y-[20px]">
+                    <h2 class="text-[50px] font-600 xl:text-start text-center">Kompaniya haqida</h2>
+                    <p class="text-[16px] sm:text-[18px] w-[80%] xl:w-[100%]">Agentlik-bu mijozlarga o'z bizneslari uchun sifatli va innovatsion echimlarni taqdim etis
+                        h maqsadida tashkil etilgan veb-agentlik. Bizning jamoamiz mijo
+                        zlarga moslashtirilgan va sifatli mahsulotni taklif qilish uchun yaqin hamkorlikda ishlaydigan tajribali veb-dizayn, ishlab chiqish va marketing mutaxassislaridan iborat.</p>
+                    <p class="text-[16px] sm:text-[18px] w-[80%] xl:w-[100%]"> Biz veb-dizayn, veb-sayt va mobil ilovalarni ishlab chiqish, SEO optimallashtirish, kontent yaratish va reklama ka
+                        paniyalarini o'z ichiga olgan keng ko'lamli xizmatlarni taklif etamiz. Biz eng yangi texnologiyalar va innovatsion usullardan foydalangan holda b
+                        rendni rivojlantirish va sotishni ko'paytirish bilan shug'ullanamiz.</p>
+                </div>
+                <ul class="about__ul lg:w-[45%] md:w-[70%] xl:h-[98%] w-[99%] sm:w-[85%] xl:pl-1 md:pl-5 p-2 h-[40%] flex justify-between flex-wrap">
+                    <li class="about__ul--list w-[40%] h-[40%]">
+                        <h4 class="sm:text-[50px] text-[40px]">
+                            20+
+                        </h4>
+                        <p class="text-[1]">Проектов запустил</p>
+                    </li>
+                    <li class="about__ul--list w-[40%] h-[40%]">
+                        <h4 class="sm:text-[50px] text-[40px]">
+                            4 года
+                        </h4>
+                        <p class="text-[1]">4 года</p>
+                    </li>
+                    <li class="about__ul--list w-[40%] h-[40%]">
+                        <h4 class="sm:text-[50px] text-[40px]">
+                            12+
+                        </h4>
+                        <p class="text-[1]">Профессионалов</p>
+                    </li>
+                    <li class="about__ul--list w-[40%] h-[40%]">
+                        <h4 class="sm:text-[50px] text-[40px]">
+                            4 года
+                        </h4>
+                        <p class="text-[1]">Опыта разработки</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="container">
+            <div class="advantages h-min-[500px] flex flex-col justify-between gap-y-[30px] pt-[60px]">
+                <div class="advantages__title w-[100%] h-[10%] text-center text-[25px] md:text-[36px]">
+                    <h2>Bizning afzalliklarimiz</h2>
+                </div>
+                <div class="advantages__cards gap-[20px] p-4 w-[100%] h-[80%] flex justify-around xl:justify-between flex-wrap">
+                    <div class="advantages__cards--card w-[90%] sm:w-[40%] xl:w-[32%] flex p-5 flex-col gap-y-[30px] h-[50%]">
+                        <img src="./img/card1__img.svg" alt="" class="w-[55px] h-[51px]">
+                        <div class="advantages__cards--card-text flex flex-col justify-between gap-y-4">
+                            <strong class="text-[24px] ">Individual yondashuv</strong>
+                            <span class="w-[50px] h-[3px] bg-[#686464] rounded-[20px]"></span>
+                            <p class="text-[16px]">Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga javob beradigan echimlarni yaratamiz</p>
+                        </div>
+                    </div>
+                    <div class="advantages__cards--card w-[90%] sm:w-[40%] xl:w-[32%] hidden sm:flex p-5 flex-col gap-y-[30px] h-[50%]">
+                        <img src="./img/card2__img.svg" alt="" class="w-[55px] h-[51px]">
+                        <div class="advantages__cards--card-text flex flex-col justify-between gap-y-4">
+                            <strong class="text-[24px] ">Ekspertiza</strong>
+                            <span class="w-[50px] h-[3px] bg-[#686464] rounded-[20px]"></span>
+                            <p class="text-[16px]">Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga javob beradigan echimlarni yaratamiz</p>
+                        </div>
+                    </div>
+                    <div class="advantages__cards--card w-[90%] sm:w-[40%] xl:w-[32%] hidden sm:flex p-5 flex-col gap-y-[30px] h-[50%]">
+                        <img src="./img/card3__img.svg" alt="" class="w-[55px] h-[51px]">
+                        <div class="advantages__cards--card-text flex flex-col justify-between gap-y-4">
+                            <strong class="text-[24px] ">Professional xizmat</strong>
+                            <span class="w-[50px] h-[3px] bg-[#686464] rounded-[20px]"></span>
+                            <p class="text-[16px]">Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga javob beradigan echimlarni yaratamiz</p>
+                        </div>
+                    </div>
+                    <div class="advantages__cards--card w-[90%] sm:w-[40%] xl:w-[32%] flex p-5 flex-col gap-y-[30px] h-[50%]">
+                        <img src="./img/card1__img.svg" alt="" class="w-[55px] h-[51px]">
+                        <div class="advantages__cards--card-text flex flex-col justify-between gap-y-4">
+                            <strong class="text-[24px] ">Individual yondashuv</strong>
+                            <span class="w-[50px] h-[3px] bg-[#686464] rounded-[20px]"></span>
+                            <p class="text-[16px]">Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga javob beradigan echimlarni yaratamiz</p>
+                        </div>
+                    </div>
+                    <div class="advantages__cards--card w-[90%] sm:w-[40%] xl:w-[32%] hidden sm:flex p-5 flex-col gap-y-[30px] h-[50%]">
+                        <img src="./img/card2__img.svg" alt="" class="w-[55px] h-[51px]">
+                        <div class="advantages__cards--card-text flex flex-col justify-between gap-y-4">
+                            <strong class="text-[24px] ">Ekspertiza</strong>
+                            <span class="w-[50px] h-[3px] bg-[#686464] rounded-[20px]"></span>
+                            <p class="text-[16px]">Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga javob beradigan echimlarni yaratamiz</p>
+                        </div>
+                    </div>
+                    <div class="advantages__cards--card w-[90%] sm:w-[40%] xl:w-[32%] hidden sm:flex p-5 flex-col gap-y-[30px] h-[50%]">
+                        <img src="./img/card3__img.svg" alt="" class="w-[55px] h-[51px]">
+                        <div class="advantages__cards--card-text flex flex-col justify-between gap-y-4">
+                            <strong class="text-[24px] ">Professional xizmat</strong>
+                            <span class="w-[50px] h-[3px] bg-[#686464] rounded-[20px]"></span>
+                            <p class="text-[16px]">Biz har bir mijozga g'amxo'rlik qilamiz va ularning ehtiyojlariga javob beradigan echimlarni yaratamiz</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="portfolio flex flex-col justify-between h-min-[500px] px-3 pt-[60px] gap-y-[40px] items-center">
+                <div class="potrfolio__title h-[20%] w-[100%] flex flex-col justify-between items-center gap-y-[20px]">
+                    <h1 class=" sm:text-[36px] text-[30px]">Bajargan loyihalarimiz</h1>
+                    <ul class="portfolio__title--category relative w-[79%] duration-500 hidden lg:flex justify-between h-[55px] items-center px-[50px] bg-[rgba(17, 19, 23, 0.5)]">
+                        <li class="portfolio__title--category-list all">Barchasi</li>
+                        <li class="portfolio__title--category-list web">Web page</li>
+                        <li class="portfolio__title--category-list edit">Veb dizayn</li>
+                        <li class="portfolio__title--category-list smm">SMM</li>
+                        <li class="portfolio__title--category-list app">Mobil ilova</li>
+                        <button class="absolute changer duration-500 left-0 w-[166px] h-[100%] bg-[#6911AD] rounded-[30px] z-[-99]"></button>
+                    </ul>
+                </div>
+                <ul class="portfolio__cards flex w-[95%] h-[77%] pl-[2] flex-wrap justify-center lg:justify-between gap-[25px] items-center p-4 pt-[20px]">
+                    <li class="portfolio__cards--card relative w-[95%] sm:w-[31%] h-[25%] sm:h-[42%] relative"><img src="./img/portf__img1.jpg" alt="">
+                    <span class="w-[121px] h-[37px] text-center bg-[#FFFFFF] absolute right-[20px] rounded-[10px] top-[15px] sm:right-[15px] text-[#000] pt-2">Mobile ilova</span>
+                    <span class="absolute top-[15px] right-[15px] bottom-[15px] opacity-0 hover__card left-[15px] z-[2] w-[92%] h-[92%]">
+                        <p class="absolute bottom-0 left-[20px] text-[20px]">UYMAKON mobil ilovasi</p>
+                        <img src="./img/arrow.svg" alt="" class="absolute top-[2px] right-[2px]">
+                    </span>
+                    </li>
+                    <li class="portfolio__cards--card relative w-[95%] sm:w-[31%] h-[25%] sm:h-[42%] relative"><img src="./img/portf__img2.jpg" alt="">
+                    <span class="w-[121px] h-[37px] text-center bg-[#FFFFFF] absolute right-[20px] rounded-[10px] top-[15px] sm:right-[15px] text-[#000] pt-2">Veb sayt</span>
+                    <span class="absolute top-[15px] right-[15px] bottom-[15px] opacity-0 hover__card left-[15px] z-[2] w-[92%] h-[92%]">
+                        <p class="absolute bottom-0 left-[20px] text-[20px]">UYMAKON mobil ilovasi</p>
+                        <img src="./img/arrow.svg" alt="" class="absolute top-[2px] right-[2px]">
+                    </span>
+                    </li>
+                    <li class="portfolio__cards--card relative w-[95%] sm:w-[31%] h-[25%] sm:h-[42%] relative"><img src="./img/portf__img3.jpg" alt="">
+                    <span class="w-[121px] h-[37px] text-center bg-[#FFFFFF] absolute right-[20px] rounded-[10px] top-[15px] sm:right-[15px] text-[#000] pt-2">SMM</span>
+                    <span class="absolute top-[15px] right-[15px] bottom-[15px] opacity-0 hover__card left-[15px] z-[2] w-[92%] h-[92%]">
+                        <p class="absolute bottom-0 left-[20px] text-[20px]">UYMAKON mobil ilovasi</p>
+                        <img src="./img/arrow.svg" alt="" class="absolute top-[2px] right-[2px]">
+                    </span>
+                    </li>
+                    <li class="portfolio__cards--card relative w-[95%] sm:w-[31%] h-[25%] sm:h-[42%] relative"><img src="./img/portf__img4.jpg" alt="">
+                    <span class="w-[121px] h-[37px] text-center bg-[#FFFFFF] absolute right-[20px] rounded-[10px] top-[15px] sm:right-[15px] text-[#000] pt-2">Mobile ilova</span>
+                    <span class="absolute top-[15px] right-[15px] bottom-[15px] opacity-0 hover__card left-[15px] z-[2] w-[92%] h-[92%]">
+                        <p class="absolute bottom-0 left-[20px] text-[20px]">UYMAKON mobil ilovasi</p>
+                        <img src="./img/arrow.svg" alt="" class="absolute top-[2px] right-[2px]">
+                    </span>
+                    </li>
+                    <li class="portfolio__cards--card relative w-[95%] sm:w-[31%] h-[25%] sm:h-[42%] relative"><img src="./img/portf__img5.jpg" alt="">
+                    <span class="w-[121px] h-[37px] text-center bg-[#FFFFFF] absolute right-[20px] rounded-[10px] top-[15px] sm:right-[15px] text-[#000] pt-2">veb sayt</span>
+                    <span class="absolute top-[15px] right-[15px] bottom-[15px] opacity-0 hover__card left-[15px] z-[2] w-[92%] h-[92%]">
+                        <p class="absolute bottom-0 left-[20px] text-[20px]">UYMAKON mobil ilovasi</p>
+                        <img src="./img/arrow.svg" alt="" class="absolute top-[2px] right-[2px]">
+                    </span>
+                    </li>
+                    <li class="portfolio__cards--card relative w-[95%] sm:w-[31%] h-[25%] sm:h-[42%] relative"><img src="./img/portf__img6.jpg" alt="">
+                    <button class="w-[121px] h-[37px] text-center bg-[#FFFFFF] absolute right-[20px] rounded-[10px] top-[15px] right-[15px] text-[#000] pt-2">SMM</button>
+                    <span class="absolute top-[15px] right-[15px] bottom-[15px] opacity-0 hover__card left-[15px] z-[2] w-[92%] h-[92%]">
+                        <p class="absolute bottom-0 left-[20px] text-[20px]">UYMAKON mobil ilovasi</p>
+                        <img src="./img/arrow.svg" alt="" class="absolute top-[2px] right-[2px]">
+                    </span>
+                    </li>
+                </ul>
+                <a href="./portfolio.html" class="w-[70px] h-[70px] rounded-[141px] hover:pt-1 hover:justify-center hidden md:flex  hover:pl-0 font-semibold bg-[#6911AD] pl-8 pt-4 hover:w-[196px] duration-500 flex items-center"> <strong class="text-white text-[21px]">Пор</strong>  <strong class=" text-[#6911AD] text-[21px]">тфолио</strong></a>
+                <a href="./portfolio.html" class=" h-[70px] rounded-[141px] text-[white] font-semibold bg-[#6911AD] hover:bg-[#6911AD] justify-center block md:hidden items-center w-[196px] duration-500 flex items-center">Портфолио</a>
+            </div>
+        </section>
+        <section class="container">
+            <div class="services h-min-[750px] py-8 flex items-center justify-center pt-[40px]">
+                <img src="./img/lines.png" alt="" class="absolute z-[-2]">
+                <div class="services__cards w-[85%] h-[90%] py-3 gap-y-5 flex flex-col justify-between bg-[#0E1014]">
+                    <div class="sercvices__title w-[100%] h-[10%] flex flex-col justify-center items-center py-3">
+                        <h2 class="text-[36px] font-600">Bizning xizmatlar</h2>
+                    </div>
+                   <ul class="w-[100%] h-[85%] flex gap-y-4 flex-wrap justify-center">
+                    <li class="services__cards--card md:w-[31%] w-[95%] sm:w-[45%] h-[25%] sm:h-[35%] md:h-[48%] py-4 flex items-center flex-col justify-between gap-y-[18px]">
+                        <img src="./img/servis__img1.svg" alt="" class="w-[69px] h-[69px]">
+                        <h3 class="text-[28px] font-600">Veb saytlar</h3>
+                        <p class="text-[20px] text-center w-[80%]">Bizdan eng yaxshi va eng zo'r sifatga ega platforma yarating.</p>
+                    </li>
+                    <li class="services__cards--card md:w-[31%] w-[95%] sm:w-[45%] h-[25%] sm:h-[35%] md:h-[48%] py-4 flex items-center flex-col justify-between gap-y-[18px]">
+                        <img src="./img/servis__img2.svg" alt="" class="w-[69px] h-[69px]">
+                        <h3 class="text-[28px] font-600">UI/UX Dizayn</h3>
+                        <p class="text-[20px] text-center w-[80%]">Bizdan eng yaxshi va eng zo'r sifatga ega platforma yarating.</p>
+                    </li>
+                    <li class="services__cards--card md:w-[31%] w-[95%] sm:w-[45%] h-[25%] sm:h-[35%] md:h-[48%] py-4 flex items-center flex-col justify-between gap-y-[18px]">
+                        <img src="./img/servis__img3.svg" alt="" class="w-[69px] h-[69px]">
+                        <h3 class="text-[28px] font-600">Mobil ilovalar</h3>
+                        <p class="text-[20px] text-center w-[80%]">Bizdan eng yaxshi va eng zo'r sifatga ega platforma yarating.</p>
+                    </li>
+                    <li class="services__cards--card md:w-[31%] w-[95%] sm:w-[45%] h-[25%] sm:h-[35%] md:h-[48%] py-4 flex items-center flex-col justify-between gap-y-[18px]">
+                        <img src="./img/servis__img4.svg" alt="" class="w-[69px] h-[69px]">
+                        <h3 class="text-[28px] font-600">SMM</h3>
+                        <p class="text-[20px] text-center w-[80%]">Bizdan eng yaxshi va eng zo'r sifatga ega platforma yarating.</p>
+                    </li>
+                    <li class="services__cards--card md:w-[31%] w-[95%] sm:w-[45%] h-[25%] sm:h-[35%] md:h-[48%] py-4 flex items-center flex-col justify-between gap-y-[18px]">
+                        <img src="./img/servis__img5.svg" alt="" class="w-[69px] h-[69px]">
+                        <h3 class="text-[28px] font-600">Grafik dizayn</h3>
+                        <p class="text-[20px] text-center w-[80%]">Bizdan eng yaxshi va eng zo'r sifatga ega platforma yarating.</p>
+                    </li>
+                    <li class="services__cards--card md:w-[31%] w-[95%] sm:w-[45%] h-[25%] sm:h-[35%] md:h-[48%] py-4 flex items-center flex-col justify-between gap-y-[18px]">
+                        <img src="./img/servis__img6.svg" alt="" class="w-[69px] h-[69px]">
+                        <h3 class="text-[28px] font-600">Motion dizayn</h3>
+                        <p class="text-[20px] text-center w-[80%]">Bizdan eng yaxshi va eng zo'r sifatga ega platforma yarating.</p>
+                    </li>
+                   </ul>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="swiper swiper1 p-4">
+                <div class="swiper__title w-[100%] p-4">
+                    <h2 class="text-[36px] text-center">Blog yangiliklarimiz</h2>
+                </div>
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card h-[480px] swiper-slide flex justify-between flex-col">
+                            <div class="image-content">
+                                    <img src="./img/slider_img1.png" alt="" class="card-img">
+                                
+                            </div>
+    
+                            <div class="card-content gap-y-5 h-[50%] flex flex-col justify-between">
+                                <h2 class="name">«QA» mutaxassisi qanday bo'lishi kerak?</h2>
+                                <p class="description">🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA», ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan. </p>
+    
+                                <span class="w-[90%] card__date flex justify-between items-center text-[14px] text-[#DEDEDE]">
+                                    <p>#hi_tech</p>
+                                    <p>14:45   22/02/23</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide h-[480px] flex justify-between flex-col">
+                            <div class="image-content">
+                                    <img src="./img/slider_img2.png" alt="" class="card-img">
+                                
+                            </div>
+    
+                            <div class="card-content flex flex-col justify-between h-[50%]">
+                                <h2 class="name">«Najot Ta'lim» logosi haqida nimalarni bilasiz?</h2>
+                                <p class="description">«Najot Ta'lim» logosi Abstrac t logo mark turdagi logo hisoblanadi. Bu kabi logolarning ma'nosini bir martada ilg'ash qiyin bo'lishi mumkin.</p>
+    
+                                <span class="w-[90%]  card__date flex justify-between items-center text-[14px] text-[#DEDEDE]">
+                                    <p>#hi_tech</p>
+                                    <p>14:45   22/02/23</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide h-[480px] flex justify-between flex-col">
+                            <div class="image-content">
+                                    <img src="./img/slider_img3.png" alt="" class="card-img">
+                            </div>
+    
+                            <div class="card-content flex flex-col justify-between h-[50%]">
+                                <h2 class="name">🙌 «TechJobs» kompaniyasi Java dasturchilarni maxsus «Deep interview»ga taklif qiladi!</h2>
+                                <p class="description">Intervyuda sizning oʻz sohangizdagi boʻshliqlaringiz, kamchiliklaringiz aniqlanib...</p>
+    
+                                <span class="w-[90%] card__date flex justify-between items-center text-[14px] text-[#DEDEDE]">
+                                    <p>#hi_tech</p>
+                                    <p>14:45   22/02/23</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card h-[480px] swiper-slide flex justify-between flex-col">
+                            <div class="image-content">
+                                    <img src="./img/slider_img1.png" alt="" class="card-img">
+                                
+                            </div>
+    
+                            <div class="card-content gap-y-5 h-[50%] flex flex-col justify-between">
+                                <h2 class="name">«QA» mutaxassisi qanday bo'lishi kerak?</h2>
+                                <p class="description">🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA», ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan. </p>
+    
+                                <span class="w-[90%] card__date flex justify-between items-center text-[14px] text-[#DEDEDE]">
+                                    <p>#hi_tech</p>
+                                    <p>14:45   22/02/23</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide h-[480px] flex justify-between flex-col">
+                            <div class="image-content">
+                                    <img src="./img/slider_img2.png" alt="" class="card-img">
+                                
+                            </div>
+    
+                            <div class="card-content flex flex-col justify-between h-[50%]">
+                                <h2 class="name">«Najot Ta'lim» logosi haqida nimalarni bilasiz?</h2>
+                                <p class="description">«Najot Ta'lim» logosi Abstrac t logo mark turdagi logo hisoblanadi. Bu kabi logolarning ma'nosini bir martada ilg'ash qiyin bo'lishi mumkin.</p>
+    
+                                <span class="w-[90%] card__date flex justify-between items-center text-[14px] text-[#DEDEDE]">
+                                    <p>#hi_tech</p>
+                                    <p>14:45   22/02/23</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide h-[480px] flex justify-between flex-col">
+                            <div class="image-content">
+                                    <img src="./img/slider_img3.png" alt="" class="card-img">
+                            </div>
+    
+                            <div class="card-content flex flex-col justify-between h-[50%]">
+                                <h2 class="name">🙌 «TechJobs» kompaniyasi Java dasturchilarni maxsus «Deep interview»ga taklif qiladi!</h2>
+                                <p class="description">Intervyuda sizning oʻz sohangizdagi boʻshliqlaringiz, kamchiliklaringiz aniqlanib...</p>
+    
+                                <span class="w-[90%] card__date flex justify-between items-center text-[14px] text-[#DEDEDE]">
+                                    <p>#hi_tech</p>
+                                    <p>14:45   22/02/23</p>
+                                </span>
+                            </div>
+                        </div> 
+                         <div class="card h-[480px] swiper-slide flex justify-between flex-col">
+                            <div class="image-content">
+                                    <img src="./img/slider_img1.png" alt="" class="card-img">
+                                
+                            </div>
+    
+                            <div class="card-content gap-y-5 h-[50%] flex flex-col justify-between">
+                                <h2 class="name">«QA» mutaxassisi qanday bo'lishi kerak?</h2>
+                                <p class="description">🔥 Ma'lumki, «Najot Ta'lim»dagi kurslar qatoriga «QA», ya'ni «Dasturiy ta'minotni testlash» kursi ham qo'shilgan. </p>
+    
+                                <span class="w-[90%] card__date flex justify-between items-center text-[14px] text-[#DEDEDE]">
+                                    <p>#hi_tech</p>
+                                    <p>14:45   22/02/23</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide h-[480px] flex justify-between flex-col">
+                            <div class="image-content">
+                                    <img src="./img/slider_img2.png" alt="" class="card-img">
+                                
+                            </div>
+    
+                            <div class="card-content flex flex-col justify-between h-[50%]">
+                                <h2 class="name">«Najot Ta'lim» logosi haqida nimalarni bilasiz?</h2>
+                                <p class="description">«Najot Ta'lim» logosi Abstrac t logo mark turdagi logo hisoblanadi. Bu kabi logolarning ma'nosini bir martada ilg'ash qiyin bo'lishi mumkin.</p>
+    
+                                <span class="w-[90%] card__date flex justify-between items-center text-[14px] text-[#DEDEDE]">
+                                    <p>#hi_tech</p>
+                                    <p>14:45   22/02/23</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide h-[480px] flex justify-between flex-col">
+                            <div class="image-content">
+                                    <img src="./img/slider_img3.png" alt="" class="card-img">
+                            </div>
+    
+                            <div class="card-content flex flex-col justify-between h-[50%]">
+                                <h2 class="name">🙌 «TechJobs» kompaniyasi Java dasturchilarni maxsus «Deep interview»ga taklif qiladi!</h2>
+                                <p class="description">Intervyuda sizning oʻz sohangizdagi boʻshliqlaringiz, kamchiliklaringiz aniqlanib...</p>
+    
+                                <span class="w-[90%] card__date flex justify-between items-center text-[14px] text-[#DEDEDE]">
+                                    <p>#hi_tech</p>
+                                    <p>14:45   22/02/23</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination swiper-pagination1"></div>
+            </div>
+        </section>
+        <section class="container">
+      <div class="workers">
+        <div class="swiper swiper2 p-2">
+            <div class="swiper__title w-[100%] p-4">
+                <h2 class="text-[36px] text-center">Blog yangiliklarimiz</h2>
+            </div>
+            <div class="my-slider">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card h-[480px] border-none swiper-slide flex justify-between flex-col">
+                        <img src="./img/workers__img1.png" alt="" class="z-[2]">
+                        <div class="w-[296px] h-[88px] bg-[#0e1014e] worker border border-[#4E4E4E] rounded-[20px] mt-[-50px] z-[12] mx-auto flex flex-col justify-between items-center py-3">
+                            <h4>Saidalixon Sobirov</h4>
+                            <span class="w-[100px] h-0 span"></span>
+                            <p>Frontend dasturchi</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide border-none h-[480px] flex justify-between flex-col">
+                        <img src="./img/workers__img2.png" alt="" class="z-[2]">
+                        <span class="w-[296px] border worker border-[#4E4E4E] rounded-[20px] mx-auto h-[88px] mt-[-50px] z-[3] flex flex-col justify-between items-center py-3">
+                            <h4>Saidalixon Sobirov</h4>
+                            <span class="w-[100px] h-0 "></span>
+                            <p>SMM designer</p>
+                        </span>
+                    </div>
+                    <div class="card swiper-slide border-none h-[480px] worker flex justify-between flex-col">
+                        <img src="./img/workers__img3.png" alt="" class="z-[2]">
+                        <span class="w-[296px] bg-[#0e1014e] border border-[#4E4E4E] rounded-[20px] mx-auto h-[88px] mt-[-50px] z-[3] flex flex-col justify-between items-center py-3">
+                            <h4>Saidalixon Sobirov</h4>
+                            <span class="w-[100px] h-0 "></span>
+                            <p>Project Manager</p>
+                        </span>
+                    </div>
+                    <div class="card border-none h-[480px] swiper-slide worker border-none flex justify-between flex-col">
+                        <img src="./img/workers__img4.png" alt="" class="z-[2]">
+                        <span class="w-[296px] bg-[#0e1014e] border border-[#4E4E4E] rounded-[20px] mx-auto h-[88px] mt-[-50px] z-[3] flex flex-col justify-between items-center py-3">
+                            <h4>Saidalixon Sobirov</h4>
+                            <span class="w-[100px] h-0 "></span>
+                            <p>UX/UI web designer</p>
+                        </span>
+                    </div>
+                    <div class="card border-none h-[480px] swiper-slide border-none worker flex justify-between flex-col">
+                        <img src="./img/workers__img1.png" alt="" class="z-[2]">
+                        <span class="w-[296px] bg-[#0e1014e] border border-[#4E4E4E] rounded-[20px] mx-auto h-[88px] mt-[-50px] z-[3] flex flex-col justify-between items-center py-3">
+                            <h4>Saidalixon Sobirov</h4>
+                            <span class="w-[100px] h-0 "></span>
+                            <p>Frontend dasturchi</p>
+                        </span>
+                    </div>
+                    <div class="card swiper-slide h-[480px] border-none flex worker justify-between flex-col">
+                        <img src="./img/workers__img2.png" alt="" class="z-[2]">
+                        <span class="w-[296px] h-[88px] bg-[#0e1014e] border border-[#4E4E4E] mx-auto rounded-[20px] mt-[-50px] z-[3] flex flex-col justify-between items-center py-3">
+                            <h4>Saidalixon Sobirov</h4>
+                            <span class="w-[100px] h-0 "></span>
+                            <p>SMM designer</p>
+                        </span>
+                    </div>
+                    <div class="card swiper-slide h-[480px] border-none worker flex justify-between flex-col">
+                        <img src="./img/workers__img3.png" alt="" class="z-[2]">
+                        <span class="w-[296px] h-[88px] bg-[#0e1014e] border border-[#4E4E4E] mx-auto rounded-[20px] mt-[-50px] z-[3] flex flex-col justify-between items-center py-3">
+                            <h4>Saidalixon Sobirov</h4>
+                            <span class="w-[100px] h-0 "></span>
+                            <p>Project Manager</p>
+                        </span>
+                    </div>
+                    <div class="card h-[480px] border-none worker swiper-slide flex worker justify-between flex-col">
+                        <img src="./img/workers__img4.png" alt="" class="z-[2]">
+                        <span class="w-[296px] h-[88px] bg-[#0e1014e] border border-[#4E4E4E] mx-auto rounded-[20px] mt-[-50px] z-[3] flex flex-col justify-between items-center py-3">
+                            <h4>Saidalixon Sobirov</h4>
+                            <span class="w-[100px] h-0 "></span>
+                            <p>UX/UI web designer</p>
+                        </span>
+                    </div>
+                   
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-prev swiper-navBtn"></div>
+            <div class="swiper-pagination swiper-pagination2"></div>
+        </div>
+      </div>
+        </section>
+
+        <section>
+            <div class="container"> 
+                <div class="order mt-[100px] mb-[50px] mx-auto h-auto w-[100%] px-[15px] z-[2] md:px-[50px] py-7 gap-y-5 flex justify-between xl:flex-row flex-col items-center bg-[#0E1014] border border-[#4E4E4E] rounded-[20px]">
+                <form class="xl:w-[50%] xl:h-[90%] w-[100%] sm:w-[98%] h-[50%] flex justify-between flex-col gap-y-5">
+                    <h2 class="md:text-[32px] text-[20px]"><i>Sizni bir finjon qahva ustida l
+                        oyihangizni batafsil muhokama qilishga mamnuniyat ila taklif qilamiz.</i></h2>
+                        <div class="inputs w-[100%] h-[20%] flex justify-between flex-col gap-y-4">
+                            <input type="text" placeholder="Ismingiz" id="name" class="w-[100%] h-[31%] bg-[transparent] focus:outline-none border-b border-b-[#AAAAAA] py-3">
+                            <input type="number" placeholder="Telefon raqamingiz" id="phoneNumber" class="w-[100%] h-[31%] bg-[transparent] focus:outline-none border-b border-b-[#AAAAAA] py-3">
+                            <input type="text" placeholder="G'oyangiz xaqida qisqacha (Muhim emas)" id="idea" class="w-[100%] h-[31%] bg-[transparent] focus:outline-none border-b border-b-[#AAAAAA] py-3">
+                        </div>
+                        <h4 class="text-[24px]">Qanday xizmatlardan foydalanishni xoxlaysiz?</h4>
+                        <ul class="radios sm:w-[100%] pl-3 sm:h-[50%] flex justify-between flex-wrap gap-y-9">
+                           <li class="radios--list">
+                            <input id="default-checkbox" value="Backend"type="checkbox" value="" class="w-4 h-4 accent-blue-600  accent-gray-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium  ">Backend</label>
+                        </li>
+                           <li class="radios--list">
+                             <input id="default-checkbox" type="checkbox" value="CRM ishlab chiqish" class="w-4 h-4 accent-blue-600  accent-purple-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium  ">CRM ishlab chiqish</label>
+                           </li>
+                           <li class="radios--list">
+                             <input id="default-checkbox" type="checkbox" value="Internet magazin ishlab chiqish" class="w-4 h-4 accent-blue-600  accent-gray-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium">Internet magazin ishlab chiqish</label>
+                           </li>
+                           <li class="radios--list">
+                             <input id="default-checkbox" type="checkbox" value="Portal ishlab chiqish" class="w-4 h-4 accent-blue-600  accent-gray-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium  ">Portal ishlab chiqish</label>
+                           </li>
+                           <li class="radios--list">
+                             <input id="default-checkbox" type="checkbox" value="Veb dizayn" class="w-4 h-4 accent-blue-600  accent-gray-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium  ">Veb dizayn</label>
+                           </li>
+                           <li class="radios--list">
+                             <input id="default-checkbox" type="checkbox" value="Mobilograf" class="w-4 h-4 accent-blue-600  accent-gray-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium  ">Mobilograf</label>
+                           </li>
+                           <li class="radios--list">
+                             <input id="default-checkbox" type="checkbox" value="Frontend" class="w-4 h-4 accent-blue-600  accent-gray-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium  ">Frontend</label>
+                           </li>
+                           <li class="radios--list">
+                             <input id="default-checkbox" type="checkbox" value="Grafik dizayn" class="w-4 h-4 accent-blue-600  accent-gray-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium  ">Grafik dizayn</label>
+                           </li>
+                           <li class="radios--list">
+                             <input id="default-checkbox" type="checkbox" value="Motion dizayn" class="w-4 h-4 accent-blue-600  accent-gray-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium  ">Motion dizayn</label>
+                           </li>
+                           <li class="radios--list">
+                             <input id="default-checkbox" type="checkbox" value=">Mobil ilova" class="w-4 h-4 accent-blue-600  accent-gray-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium  ">Mobil ilova 
+ishlab chiqish</label>
+                           </li>
+                           <li class="radios--list">
+                             <input id="default-checkbox" type="checkbox" value="Mobil ilova Veb sayt ishlab chiqish" class="w-4 h-4 accent-blue-600  accent-gray-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium  ">Mobil ilova Veb sayt ishlab chiqish</label>
+                           </li>
+                           <li class="radios--list">
+                             <input id="default-checkbox" type="checkbox" value="SMM dizayn" class="w-4 h-4 accent-blue-600  accent-gray-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium  ">SMM dizayn</label>
+                           </li>
+                           
+                        </ul>
+
+                </form>
+                <div class="xl:w-[45%] xl:h-[70%] h-[50%] w-[98%] flex flex-col items-center md:items-start gap-y-7">
+                    <div class="chooseDrink w-[100%] h-[90%] p-2  gap-y-4 flex flex-col justify-between items-center">
+                        <div class="chooseDrink__title p-2"><h2 class="text-[24px]">NIMANI MA'QUL KO'RASIZ?</h2></div>
+                        <ul class="drinks w-[100%] flex flex-wrap flex-row justify-between gap-y-[50px] py-2 h-[90%]">
+                        <li class="drinks__black flex flex-col justify-between items-center w-[40%] h-[45%]">
+                            <button><img src="./img/black__cofee.png" alt=""></button>
+                            <p class="text-[24px] mx-auto">Achchiq kofe</p></li>
+                        <li class="drinks__milk flex flex-col justify-between items-center w-[40%] h-[45%]">
+                           <button><img src="./img/milk__cofee.png" alt=""></button>
+                            <span class="text-[24px]">Sutli kofe</span>
+                        </li>
+                        <li class="drinks__water flex flex-col justify-between items-center w-[40%] h-[45%]">
+                            
+                           <button> <img src="./img/water.png" alt=""></button>
+                            <span class="text-[24px]">Suv</span>
+                        </li>
+                        <li class="drinks__tea flex flex-col justify-between items-center w-[40%] h-[45%]">
+                            <button><img src="./img/tea.png" alt=""></button>
+                            <span class="text-[24px]">Choy</span>
+                        </li>
+                        </ul>
+                        
+                    </div>
+                    <button id="sub-btn1" type="submit" class="w-[70px] h-[70px] rounded-[141px] hover:pt-1 hover:justify-center hidden xl:flex  hover:pl-0 font-semibold bg-[#6911AD] pl-8 pt-4 hover:w-[196px] duration-500 flex items-center"> <strong class="text-white text-[21px]">Yub</strong>  <strong class=" text-[#6911AD] text-[21px]">orish</strong></button>
+                <button id="sub-btn2" type="submit" class="h-[70px] rounded-[141px] text-[white] font-semibold bg-[#6911AD] hover:bg-[#6911AD] justify-center block xl:hidden items-center w-[196px] duration-500 flex items-center">Yuborish</button>
+                </div>
+               
+                
+               
+            </div></div>
+        </div>
+         
+        </section>
+      </main>
+      <footer class="shadow m-4 ">
+        <div class="container">
+            <div class="foot flex justify-between items-center lg:flex-nowrap flex-wrap gap-y-6 lg:gap-y-0 px-[25px]  md::px-[60px] py-5">
+                <div class="foot__logo text-[30px] lg:w-[7%] w-[100%] text-center">
+                    <h2>ZAKIY</h2>
+                </div>
+                <div class="lg:w-[40%] w-[100%] flex items-center gap-x-5 h-[20%] lg:h-[50%] justify-center">
+                    <i class='bx bx-map text-[20px]'></i>
+                    <span>   <p class="text-[16px]">Manzil:  Toshkent shahri, Sergeli tumani, Navro’z ko’cha 3-uy.
+                    </p>
+                    <p class="text-[16px]">Mo’ljal:  “ASIA AUTO” avtosalon ichki qismi</p></span>
+                </div>
+                <ul class="foot__phone flex flex-col lg:w-[20%] lg:h-[50%] w-[100%] h-[20%]">
+                    <li class="w-[100%] h-[50%] flex gap-x-3 items-center justify-center">
+                        <i class='bx bx-phone'></i>
+                        <p>+998 99 999 99 99</p>
+                    </li>
+                    <li class="w-[100%] h-[50%] flex gap-x-3 items-center justify-center">
+                        <i class='bx bx-phone'></i>
+                        <p>+998 99 999 99 99</p>
+                    </li>
+                </ul>
+                <div class="foot__icons flex lg:w-[6%] text-[20px] items-center lg:justify-between w-[100%] justify-center gap-x-5 lg:gap-x-0">
+                    <a href="http://telegram.com/" target="_blank"><i class='bx bxl-telegram'></i></a>
+                   <a href="https://instagram.com/" target="_blank"> <i class='bx bxl-facebook'></i></a>
+                   <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+        </div>
+      </footer>
+      <script type="module">
+        import createGlobe from 'https://cdn.skypack.dev/cobe'
+      
+        let phi = 0
+        let canvas = document.getElementById("cobe")
+      
+        const globe = createGlobe(canvas, {
+          devicePixelRatio: 2,
+          width: 750,
+          height: 920,
+          phi: 10,
+          theta: 0,
+          dark: 1,
+          diffuse: 1.2,
+          scale: 1,
+          mapSamples: 16000,
+          mapBrightness: 6,
+          baseColor: [1, 1, 1],
+          markerColor: [1, 0.5, 1],
+          glowColor: [1, 1, 1],
+          offset: [0, 0],
+          markers: [
+            { location: [37.7595, -122.4367], size: 0.03 },
+            { location: [40.7128, -74.006], size: 0.1 },
+          ],
+          onRender: (state) => {
+            // Called on every animation frame.
+            // `state` will be an empty object, return updated params.
+            state.phi = phi
+            phi += 0.01
+          },
+        })
+      </script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="./scrpts/utils.js"></script>
+<script src="./scrpts/home.js"></script>
+</html>

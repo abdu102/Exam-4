@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam-portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style/style.min.css">
+</head>
+<body>
+    <header class="h-[80px]">
+        <div class="container">
+            <nav class="nav pt-3 pl-8 flex justify-between items-center">
+                <a href="#" class="burger bg-red block sm:hidden"><img src="./img/monu.svg" alt=""></a>
+                <div class="nav__logo h-[100%] font-bold text-[30px] p-1">
+                    <h2>LOGO</h2>
+                </div>
+                <ul class="nav__ul sm:flex justify-between hidden sm:w-[58%] md:w-[50%] lg:;w-[40%] items-center pt-2 font-[700] texxt-[20px]">
+                    <li class="nav__ul--list"><a href="./news.html" target="_blank" rel="noopener noreferrer">О компании</a></li>
+                    <li class="nav__ul--list"><a href="#" target="_blank" rel="noopener noreferrer">Портфолио</a></li>
+                    <li class="nav__ul--list"><a href="./news.html" target="_blank" rel="noopener noreferrer">Услуги</a></li>
+                    <li class="nav__ul--list"><a href="#" target="_blank" rel="noopener noreferrer">Контакты</a></li>
+                </ul>
+                <div class="nav__info flex justify-between items-center w-[26%] lg:w-[37%]">
+                    <div class="nav__info--theme flex justify-between  relative px-2 items-center text-[22px] bg-[hsla(0, 0%, 67%, 1)]] border border-[#AAAAAA] rounded-[40px] w-[93px] h-[40px]">
+                        <i class='bx bx-sun light sun'></i>
+                        <div class="nav__info--theme-box duration-500 h-[36px] absolute w-[36px] rounded-[40px] z-[-9] right-[3px] bg-[#5454D4]"></div>
+                        <i class='bx bx-moon dark dark'></i>
+                    </div>
+                    <div class="nav__info--phone hidden xl:block">
+                        <h3>+998 90 777-77-77</h3>
+                        <p>chotatam@gmail.com</p>
+                    </div>
+                    <button class="nav__info--btn bg-[#6911AD] hidden lg:block font-bold hover:bg-[#7331AD] w-[168px] h-[45px] rounded-[7px]">
+                        Заказать звонок
+                    </button>
+                   
+                </div>
+              
+                <div class="nav__menu hidden fixed left-0 top-0 duration-300 h-[100vh] flex items-center w-[100vw] flex-col z-[99]">
+                    <div class="nav__menu--title  px-5 flex justify-between items-center text-white w-[100%] h-[10%]">
+                    <h2 class="text-[30px] ">LOGO</h2>
+
+                        <i class='bx bx-x text-white closed text-[40px]'></i>
+                    </div>
+                    <ul class="nav__ul flex justify-between text-[32px] flex-col h-[40%] w-[100%] pl-[40px] pt-[40px] text-white font-[700] text-[20px]">
+                        <li class="nav__ul--list"><a href="./news.html" target="_blank" rel="noopener noreferrer">О компании</a></li>
+                        <li class="nav__ul--list"><a href="#" target="_blank" rel="noopener noreferrer">Портфолио</a></li>
+                        <li class="nav__ul--list"><a href="./news.html" target="_blank" rel="noopener noreferrer">Услуги</a></li>
+                        <li class="nav__ul--list"><a href="#" target="_blank" rel="noopener noreferrer">Контакты</a></li>
+                    </ul>
+                    <button class="nav__info--btn bg-[#6911AD] block text-white text-[32px] mt-[80px] font-bold hover:bg-[#6911AD] w-[299px] h-[82px] rounded-[141px]">
+                        (99) 999 9999
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+      <main>
+        <section class="container">
+            <div class="portfolio flex flex-col justify-between h-min-[500px] px-3 pt-[60px] gap-y-[40px] items-center">
+                <div class="potrfolio__title h-[20%] w-[100%] flex flex-col justify-between items-center gap-y-[20px]">
+                    <h1 class=" sm:text-[36px] text-[30px]">Bajargan loyihalarimiz</h1>
+                    <ul class="portfolio__title--category relative w-[79%] duration-500 hidden lg:flex justify-between h-[55px] items-center px-[50px] bg-[rgba(17, 19, 23, 0.5)]">
+                        <li class="portfolio__title--category-list all">Barchasi</li>
+                        <li class="portfolio__title--category-list web">Web page</li>
+                        <li class="portfolio__title--category-list edit">Veb dizayn</li>
+                        <li class="portfolio__title--category-list smm">SMM</li>
+                        <li class="portfolio__title--category-list app">Mobil ilova</li>
+                        <button class="absolute changer duration-500 left-0 w-[166px] h-[100%] bg-[#6911AD] rounded-[30px] z-[-99] text-white"></button>
+                    </ul>
+                </div>
+                <ul class="portfolio__cards flex w-[95%] h-[77%] pl-[2] flex-wrap justify-center lg:justify-between gap-[25px] items-center p-4 pt-[20px]">
+                    <li class="portfolio__cards--card relative w-[95%] sm:w-[31%] h-[25%] sm:h-[42%] relative"><img src="./img/portf__img1.jpg" alt="">
+                    <span class="w-[121px] h-[37px] text-center bg-[#FFFFFF] absolute right-[20px] rounded-[10px] top-[15px] sm:right-[15px] text-[#000] pt-2">Mobile ilova</span>
+                    <span class="absolute top-[15px] right-[15px] bottom-[15px] opacity-0 hover__card left-[15px] z-[2] w-[92%] h-[92%]">
+                        <p class="absolute bottom-0 left-[20px] text-[20px]">UYMAKON mobil ilovasi</p>
+                        <img src="./img/arrow.svg" alt="" class="absolute top-[2px] right-[2px]">
+                    </span>
+                    </li>
+                    <li class="portfolio__cards--card relative w-[95%] sm:w-[31%] h-[25%] sm:h-[42%] relative"><img src="./img/portf__img2.jpg" alt="">
+                    <span class="w-[121px] h-[37px] text-center bg-[#FFFFFF] absolute right-[20px] rounded-[10px] top-[15px] sm:right-[15px] text-[#000] pt-2">Veb sayt</span>
+                    <span class="absolute top-[15px] right-[15px] bottom-[15px] opacity-0 hover__card left-[15px] z-[2] w-[92%] h-[92%]">
+                        <p class="absolute bottom-0 left-[20px] text-[20px]">UYMAKON mobil ilovasi</p>
+                        <img src="./img/arrow.svg" alt="" class="absolute top-[2px] right-[2px]">
+                    </span>
+                    </li>
+                    <li class="portfolio__cards--card relative w-[95%] sm:w-[31%] h-[25%] sm:h-[42%] relative"><img src="./img/portf__img3.jpg" alt="">
+                    <span class="w-[121px] h-[37px] text-center bg-[#FFFFFF] absolute right-[20px] rounded-[10px] top-[15px] sm:right-[15px] text-[#000] pt-2">SMM</span>
+                    <span class="absolute top-[15px] right-[15px] bottom-[15px] opacity-0 hover__card left-[15px] z-[2] w-[92%] h-[92%]">
+                        <p class="absolute bottom-0 left-[20px] text-[20px]">UYMAKON mobil ilovasi</p>
+                        <img src="./img/arrow.svg" alt="" class="absolute top-[2px] right-[2px]">
+                    </span>
+                    </li>
+                    <li class="portfolio__cards--card relative w-[95%] sm:w-[31%] h-[25%] sm:h-[42%] relative"><img src="./img/portf__img4.jpg" alt="">
+                    <span class="w-[121px] h-[37px] text-center bg-[#FFFFFF] absolute right-[20px] rounded-[10px] top-[15px] sm:right-[15px] text-[#000] pt-2">Mobile ilova</span>
+                    <span class="absolute top-[15px] right-[15px] bottom-[15px] opacity-0 hover__card left-[15px] z-[2] w-[92%] h-[92%]">
+                        <p class="absolute bottom-0 left-[20px] text-[20px]">UYMAKON mobil ilovasi</p>
+                        <img src="./img/arrow.svg" alt="" class="absolute top-[2px] right-[2px]">
+                    </span>
+                    </li>
+                    <li class="portfolio__cards--card relative w-[95%] sm:w-[31%] h-[25%] sm:h-[42%] relative"><img src="./img/portf__img5.jpg" alt="">
+                    <span class="w-[121px] h-[37px] text-center bg-[#FFFFFF] absolute right-[20px] rounded-[10px] top-[15px] sm:right-[15px] text-[#000] pt-2">veb sayt</span>
+                    <span class="absolute top-[15px] right-[15px] bottom-[15px] opacity-0 hover__card left-[15px] z-[2] w-[92%] h-[92%]">
+                        <p class="absolute bottom-0 left-[20px] text-[20px]">UYMAKON mobil ilovasi</p>
+                        <img src="./img/arrow.svg" alt="" class="absolute top-[2px] right-[2px]">
+                    </span>
+                    </li>
+                    <li class="portfolio__cards--card relative w-[95%] sm:w-[31%] h-[25%] sm:h-[42%] relative"><img src="./img/portf__img6.jpg" alt="">
+                    <button class="w-[121px] h-[37px] text-center bg-[#FFFFFF] absolute right-[20px] rounded-[10px] top-[15px] right-[15px] text-[#000] pt-2">SMM</button>
+                    <span class="absolute top-[15px] right-[15px] bottom-[15px] opacity-0 hover__card left-[15px] z-[2] w-[92%] h-[92%]">
+                        <p class="absolute bottom-0 left-[20px] text-[20px]">UYMAKON mobil ilovasi</p>
+                        <img src="./img/arrow.svg" alt="" class="absolute top-[2px] right-[2px]">
+                    </span>
+                    </li>
+                    <li class="portfolio__cards--card relative w-[95%] sm:w-[31%] h-[25%] sm:h-[42%] relative"><img src="./img/portf__img4.jpg" alt="">
+                        <span class="w-[121px] h-[37px] text-center bg-[#FFFFFF] absolute right-[20px] rounded-[10px] top-[15px] sm:right-[15px] text-[#000] pt-2">Mobile ilova</span>
+                        <span class="absolute top-[15px] right-[15px] bottom-[15px] opacity-0 hover__card left-[15px] z-[2] w-[92%] h-[92%]">
+                            <p class="absolute bottom-0 left-[20px] text-[20px]">UYMAKON mobil ilovasi</p>
+                            <img src="./img/arrow.svg" alt="" class="absolute top-[2px] right-[2px]">
+                        </span>
+                        </li>
+                        <li class="portfolio__cards--card relative w-[95%] sm:w-[31%] h-[25%] sm:h-[42%] relative"><img src="./img/portf__img5.jpg" alt="">
+                        <span class="w-[121px] h-[37px] text-center bg-[#FFFFFF] absolute right-[20px] rounded-[10px] top-[15px] sm:right-[15px] text-[#000] pt-2">veb sayt</span>
+                        <span class="absolute top-[15px] right-[15px] bottom-[15px] opacity-0 hover__card left-[15px] z-[2] w-[92%] h-[92%]">
+                            <p class="absolute bottom-0 left-[20px] text-[20px]">UYMAKON mobil ilovasi</p>
+                            <img src="./img/arrow.svg" alt="" class="absolute top-[2px] right-[2px]">
+                        </span>
+                        </li>
+                        <li class="portfolio__cards--card relative w-[95%] sm:w-[31%] h-[25%] sm:h-[42%] relative"><img src="./img/portf__img6.jpg" alt="">
+                        <button class="w-[121px] h-[37px] text-center bg-[#FFFFFF] absolute right-[20px] rounded-[10px] top-[15px] right-[15px] text-[#000] pt-2">SMM</button>
+                        <span class="absolute top-[15px] right-[15px] bottom-[15px] opacity-0 hover__card left-[15px] z-[2] w-[92%] h-[92%]">
+                            <p class="absolute bottom-0 left-[20px] text-[20px]">UYMAKON mobil ilovasi</p>
+                            <img src="./img/arrow.svg" alt="" class="absolute top-[2px] right-[2px]">
+                        </span>
+                        </li>
+                </ul>
+              
+            </div>
+        </section>
+
+        <section>
+            <div class="container"> 
+                <div class="order mt-[100px] mb-[50px] mx-auto h-auto w-[100%] px-[15px] z-[2] md:px-[50px] py-7 gap-y-5 flex justify-between xl:flex-row flex-col items-center bg-[#0E1014] border border-[#4E4E4E] rounded-[20px]">
+                <form class="xl:w-[50%] xl:h-[90%] w-[100%] sm:w-[98%] h-[50%] flex justify-between flex-col gap-y-5">
+                    <h2 class="md:text-[32px] text-[20px]"><i>Sizni bir finjon qahva ustida l
+                        oyihangizni batafsil muhokama qilishga mamnuniyat ila taklif qilamiz.</i></h2>
+                        <div class="inputs w-[100%] h-[20%] flex justify-between flex-col gap-y-4">
+                            <input type="text" placeholder="Ismingiz" id="name" class="w-[100%] h-[31%] bg-[transparent] focus:outline-none border-b border-b-[#AAAAAA] py-3">
+                            <input type="number" placeholder="Telefon raqamingiz" id="phoneNumber" class="w-[100%] h-[31%] bg-[transparent] focus:outline-none border-b border-b-[#AAAAAA] py-3">
+                            <input type="text" placeholder="G'oyangiz xaqida qisqacha (Muhim emas)" id="idea" class="w-[100%] h-[31%] bg-[transparent] focus:outline-none border-b border-b-[#AAAAAA] py-3">
+                        </div>
+                        <h4 class="text-[24px]">Qanday xizmatlardan foydalanishni xoxlaysiz?</h4>
+                        <ul class="radios sm:w-[100%] pl-3 sm:h-[50%] flex justify-between flex-wrap gap-y-9">
+                           <li class="radios--list">
+                            <input id="default-checkbox" value="Backend"type="checkbox" value="" class="w-4 h-4 accent-blue-600  accent-gray-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium  ">Backend</label>
+                        </li>
+                           <li class="radios--list">
+                             <input id="default-checkbox" type="checkbox" value="CRM ishlab chiqish" class="w-4 h-4 accent-blue-600  accent-purple-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium  ">CRM ishlab chiqish</label>
+                           </li>
+                           <li class="radios--list">
+                             <input id="default-checkbox" type="checkbox" value="Internet magazin ishlab chiqish" class="w-4 h-4 accent-blue-600  accent-gray-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium">Internet magazin ishlab chiqish</label>
+                           </li>
+                           <li class="radios--list">
+                             <input id="default-checkbox" type="checkbox" value="Portal ishlab chiqish" class="w-4 h-4 accent-blue-600  accent-gray-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium  ">Portal ishlab chiqish</label>
+                           </li>
+                           <li class="radios--list">
+                             <input id="default-checkbox" type="checkbox" value="Veb dizayn" class="w-4 h-4 accent-blue-600  accent-gray-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium  ">Veb dizayn</label>
+                           </li>
+                           <li class="radios--list">
+                             <input id="default-checkbox" type="checkbox" value="Mobilograf" class="w-4 h-4 accent-blue-600  accent-gray-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium  ">Mobilograf</label>
+                           </li>
+                           <li class="radios--list">
+                             <input id="default-checkbox" type="checkbox" value="Frontend" class="w-4 h-4 accent-blue-600  accent-gray-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium  ">Frontend</label>
+                           </li>
+                           <li class="radios--list">
+                             <input id="default-checkbox" type="checkbox" value="Grafik dizayn" class="w-4 h-4 accent-blue-600  accent-gray-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium  ">Grafik dizayn</label>
+                           </li>
+                           <li class="radios--list">
+                             <input id="default-checkbox" type="checkbox" value="Motion dizayn" class="w-4 h-4 accent-blue-600  accent-gray-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium  ">Motion dizayn</label>
+                           </li>
+                           <li class="radios--list">
+                             <input id="default-checkbox" type="checkbox" value=">Mobil ilova" class="w-4 h-4 accent-blue-600  accent-gray-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium  ">Mobil ilova 
+ishlab chiqish</label>
+                           </li>
+                           <li class="radios--list">
+                             <input id="default-checkbox" type="checkbox" value="Mobil ilova Veb sayt ishlab chiqish" class="w-4 h-4 accent-blue-600  accent-gray-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium  ">Mobil ilova Veb sayt ishlab chiqish</label>
+                           </li>
+                           <li class="radios--list">
+                             <input id="default-checkbox" type="checkbox" value="SMM dizayn" class="w-4 h-4 accent-blue-600  accent-gray-300 border-gray-300 rounded-  dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 ">
+                            <label for="default-checkbox" class="ml-2 text-sm font-medium  ">SMM dizayn</label>
+                           </li>
+                           
+                        </ul>
+
+                </form>
+                <div class="xl:w-[45%] xl:h-[70%] h-[50%] w-[98%] flex flex-col items-center md:items-start gap-y-7">
+                    <div class="chooseDrink w-[100%] h-[90%] p-2  gap-y-4 flex flex-col justify-between items-center">
+                        <div class="chooseDrink__title p-2"><h2 class="text-[24px]">NIMANI MA'QUL KO'RASIZ?</h2></div>
+                        <ul class="drinks w-[100%] flex flex-wrap flex-row justify-between gap-y-[50px] py-2 h-[90%]">
+                        <li class="drinks__black flex flex-col justify-between items-center w-[40%] h-[45%]">
+                            <button><img src="./img/black__cofee.png" alt=""></button>
+                            <p class="text-[24px] mx-auto">Achchiq kofe</p></li>
+                        <li class="drinks__milk flex flex-col justify-between items-center w-[40%] h-[45%]">
+                           <button><img src="./img/milk__cofee.png" alt=""></button>
+                            <span class="text-[24px]">Sutli kofe</span>
+                        </li>
+                        <li class="drinks__water flex flex-col justify-between items-center w-[40%] h-[45%]">
+                            
+                           <button> <img src="./img/water.png" alt=""></button>
+                            <span class="text-[24px]">Suv</span>
+                        </li>
+                        <li class="drinks__tea flex flex-col justify-between items-center w-[40%] h-[45%]">
+                            <button><img src="./img/tea.png" alt=""></button>
+                            <span class="text-[24px]">Choy</span>
+                        </li>
+                        </ul>
+                        
+                    </div>
+                    <button id="sub-btn1" type="submit" class="w-[70px] h-[70px] rounded-[141px] hover:pt-1 hover:justify-center hidden xl:flex  hover:pl-0 font-semibold bg-[#6911AD] pl-8 pt-4 hover:w-[196px] duration-500 flex items-center"> <strong class="text-white text-[21px]">Yub</strong>  <strong class=" text-[#6911AD] text-[21px]">orish</strong></button>
+                <button id="sub-btn2" type="submit" class="h-[70px] rounded-[141px] text-[white] font-semibold bg-[#6911AD] hover:bg-[#6911AD] justify-center block xl:hidden items-center w-[196px] duration-500 flex items-center">Yuborish</button>
+                </div>
+               
+                
+               
+            </div></div>
+        </div>
+         
+        </section>
+      </main>
+      <footer class="shadow">
+        <div class="container">
+            <div class="foot flex justify-between items-center lg:flex-nowrap flex-wrap gap-y-6 lg:gap-y-0 px-[25px]  md::px-[60px] py-5">
+                <div class="foot__logo text-[30px] lg:w-[7%] w-[100%] text-center">
+                    <h2>ZAKIY</h2>
+                </div>
+                <div class="lg:w-[40%] w-[100%] flex items-center gap-x-5 h-[20%] lg:h-[50%] justify-center">
+                    <i class='bx bx-map text-[20px]'></i>
+                    <span>   <p class="text-[16px]">Manzil:  Toshkent shahri, Sergeli tumani, Navro’z ko’cha 3-uy.
+                    </p>
+                    <p class="text-[16px]">Mo’ljal:  “ASIA AUTO” avtosalon ichki qismi</p></span>
+                </div>
+                <ul class="foot__phone flex flex-col lg:w-[20%] lg:h-[50%] w-[100%] h-[20%]">
+                    <li class="w-[100%] h-[50%] flex gap-x-3 items-center justify-center">
+                        <i class='bx bx-phone'></i>
+                        <p>+998 99 999 99 99</p>
+                    </li>
+                    <li class="w-[100%] h-[50%] flex gap-x-3 items-center justify-center">
+                        <i class='bx bx-phone'></i>
+                        <p>+998 99 999 99 99</p>
+                    </li>
+                </ul>
+                <div class="foot__icons flex lg:w-[6%] text-[20px] items-center lg:justify-between w-[100%] justify-center gap-x-5 lg:gap-x-0">
+                    <a href="http://telegram.com/" target="_blank"><i class='bx bxl-telegram'></i></a>
+                   <a href="https://instagram.com/" target="_blank"> <i class='bx bxl-facebook'></i></a>
+                   <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+        </div>
+      </footer>
+</body>
+<script src="./scrpts/utils.js"></script>
+<script src="./scrpts/portfolio.js"></script>
+</html>

@@ -1,0 +1,16 @@
+.advantages{
+    background-image: url(/img/Ellipse\ 1948.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__cards{
+        &--card{
+            background: rgba(17, 19, 23, 0.5);
+border: 1px solid #4E4E4E;
+backdrop-filter: blur(2.5px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px;
+padding: 10px;
+        }
+    }
+}

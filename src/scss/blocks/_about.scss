@@ -1,0 +1,17 @@
+.about{
+    background-image: url(/img/Rectangle\ 9566.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__ul{
+        &--list{
+            & h4{
+                color: rgba(105, 17, 173, 1);
+                font-weight: 600;
+            }
+            & p{
+                font-weight: 400;
+                font-size: 20px;
+            }
+        }
+    }
+}

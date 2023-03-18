@@ -1,0 +1,10 @@
+footer{
+    .foot{
+        background: rgba(14, 16, 20, 0.9);
+border-top: 1px solid #4E4E4E;
+backdrop-filter: blur(1px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px 20px 0px 0px;
+    }
+}
