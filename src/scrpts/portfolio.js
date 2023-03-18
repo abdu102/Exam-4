@@ -7,7 +7,7 @@ function themeChager() {
             theme.classList.remove('left-[3px]');
            theme.classList.add('right-[3px]');
            $('body').style.cssText = 'background-color: #111317; color: white;';
-           $('main').classList.add('bg-[url(./img/noise.png)]')
+
            $('.dark').style.color = 'white';
            $('.light').style.color = '#AAAAAA';
            $('.order').style.background = '#0E1014';
@@ -23,7 +23,7 @@ function themeChager() {
             theme.classList.add('left-[3px]');
            $('body').style.cssText = 'background-color: white; color:black;';
            $('button').style.color = 'white';
-           $('main').classList.remove('bg-[url(./img/noise.png)]')
+
            $('header').style.cssText = 'background:rgba(23, 25, 29, 0.1); backdrop-filter: blur(1px);';
            $('.light').style.color = 'white';
            $('.dark').style.color = '#AAAAAA';
@@ -42,12 +42,13 @@ function themeChager() {
 function toggleMenu() {
     $('.burger').addEventListener('click', e => {
         $('.nav__menu').classList.remove('hidden');
+        $('body').classList.add('overflow-y-hidden');
     
     })
     $('.closed').addEventListener('click', e => {
         $('.nav__menu').classList.add('hidden');
-    
-    })
+        $('body').classList.remove('overflow-y-hidden');
+    })  
 }
 
 

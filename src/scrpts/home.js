@@ -72,12 +72,13 @@ function themechanger() {
 function toggleMenu() {
     $('.burger').addEventListener('click', e => {
         $('.nav__menu').classList.remove('hidden');
+        $('body').classList.add('overflow-y-hidden');
     
     })
     $('.closed').addEventListener('click', e => {
         $('.nav__menu').classList.add('hidden');
-    
-    })
+        $('body').classList.remove('overflow-y-hidden');
+    })  
 }
 
 window.addEventListener('load', e => {
